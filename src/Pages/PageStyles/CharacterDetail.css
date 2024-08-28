@@ -1,0 +1,53 @@
+.card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+  
+
+  .card-img-top {
+    border-bottom: 2px solid #dee2e6;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.05);
+  }
+  
+  .badge {
+    font-size: 0.875rem;
+    padding: 0.4rem 0.8rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .badge:hover {
+    background-color: #6c757d;
+  }
+  
+
+  .btn-success {
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
